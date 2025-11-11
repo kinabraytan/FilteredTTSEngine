@@ -20,3 +20,4 @@ local.properties
 *.jks
 *.keystore
 keystore.properties
+keystore.b64.txt
