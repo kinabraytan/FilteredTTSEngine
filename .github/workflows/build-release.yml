@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     tags:
-      - 'v*'   # run on tag push like v1.2.3
+      - "v*" # run on tag push like v1.2.3
 
 jobs:
   build:
