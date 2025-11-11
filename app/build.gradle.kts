@@ -30,11 +30,13 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        // Updated to Java 11 to satisfy Android Gradle plugin requirements
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        // Use Java 11 target for Kotlin compilation
+        jvmTarget = "11"
     }
     buildFeatures {
         compose = true
